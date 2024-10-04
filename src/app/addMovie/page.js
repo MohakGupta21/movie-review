@@ -4,7 +4,7 @@ import axios from "axios";
 import Header from "../components/header";
 import { SERVER_URL } from "../utils/constants";
 import {useState} from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function AddMovie() {
   const [name,setName] = useState("");
