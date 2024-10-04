@@ -1,10 +1,11 @@
 "use client";
 
-import Header from "@/app/components/header";
+// import Header from "@/app/components/header";
 import { useRouter } from "next/navigation";
 import {useState,useEffect} from "react";
 import { SERVER_URL } from "../../utils/constants";
 import axios from "axios";
+import Header from "../../components/header";
 
 export default function EditReview({ params }) {
   const [rating,setRating] = useState(0);
